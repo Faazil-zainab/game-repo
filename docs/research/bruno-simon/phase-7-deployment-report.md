@@ -9,11 +9,11 @@ The portfolio is deployed to Vercel and the public preview responds successfully
 ## 1. Hosting provider
 
 - Provider: Vercel
-- Project: `game-repo`
+- Project: `faazil-game`
 - Framework preset: Next.js
 - Branch: `master`
 - Root directory: repository root (`./`)
-- Preview URL: https://game-repo-theta.vercel.app/
+- Public URL: https://faazil-game.vercel.app/
 
 ## 2. GitHub repository status
 
@@ -54,7 +54,7 @@ No `.env*` files are present.
 
 ## 6. Deployment URL
 
-https://game-repo-theta.vercel.app/
+https://faazil-game.vercel.app/
 
 ## 7. GLB asset delivery results
 
@@ -107,6 +107,6 @@ and bandwidth limits depend on the connected account.
 
 **PREVIEW DEPLOYED**
 
-The preview URL is publicly accessible and serves the optimized portfolio
+The public URL is accessible and serves the optimized portfolio
 models and resume PDF. Do not promote a custom production domain until the
 remaining interaction and mobile checks are completed.
