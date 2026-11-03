@@ -1,0 +1,137 @@
+{
+  "environment": {
+    "browser": "Chrome headless=new",
+    "flags": "--enable-gpu --disable-gpu unavailable? command used --enable-gpu",
+    "hardwareAccelerationVerified": false,
+    "note": "No visible desktop/GPU page was available; treat frame metrics as fallback."
+  },
+  "initial": {
+    "title": "Mohamed Faazil — AI & Full Stack Developer",
+    "devicePixelRatio": 1,
+    "hardwareConcurrency": 8,
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 1422,
+      "height": 748,
+      "top": 0,
+      "right": 1422,
+      "bottom": 748,
+      "left": 0
+    }
+  },
+  "ready": true,
+  "loadingDurationMs": 63844,
+  "resources": [
+    {
+      "name": "http://127.0.0.1:3000/models/quest-island.glb",
+      "startTime": 2754.4000000059605,
+      "duration": 22670.90000000596,
+      "transferSize": 54060551,
+      "encodedBodySize": 54060251,
+      "decodedBodySize": 66976984
+    },
+    {
+      "name": "http://127.0.0.1:3000/models/surpra%20mk.glb",
+      "startTime": 2755.5,
+      "duration": 57395.70000001788,
+      "transferSize": 102324866,
+      "encodedBodySize": 102324566,
+      "decodedBodySize": 137914580
+    }
+  ],
+  "timings": {
+    "navigation": [
+      {
+        "startTime": 0,
+        "responseEnd": 932.5999999940395,
+        "domContentLoadedEventEnd": 1120.2000000178814,
+        "loadEventEnd": 2031.0999999940395
+      }
+    ],
+    "now": 130876
+  },
+  "before": {
+    "renderer": {
+      "calls": 239,
+      "triangles": 9608726,
+      "points": 0,
+      "lines": 0
+    },
+    "memory": {
+      "geometries": 371,
+      "textures": 49
+    },
+    "terrain": {
+      "resolution": 128,
+      "cellCount": 16384,
+      "validCellCount": 11852,
+      "coverage": 0.723388671875,
+      "triangleCount": 1376682,
+      "topFacingTriangleCount": 576412,
+      "minHeight": -2.447839951315377,
+      "maxHeight": 40.21412130947816
+    },
+    "position": [
+      0.8273990340613864,
+      0.15,
+      2.625
+    ],
+    "phase": "playing",
+    "quality": "high"
+  },
+  "frameStats": {
+    "samples": 966,
+    "avgFrame": 62.16387163561077,
+    "p95": 86.80000000000291,
+    "p99": 116.69999999999709,
+    "worst": 137.5,
+    "avgFps": 16.086514138980153,
+    "low1Fps": 8.568980291345543,
+    "duration": 60019.7
+  },
+  "after": {
+    "renderer": {
+      "calls": 239,
+      "triangles": 9608726,
+      "points": 0,
+      "lines": 0
+    },
+    "memory": {
+      "geometries": 371,
+      "textures": 49
+    },
+    "terrain": {
+      "resolution": 128,
+      "cellCount": 16384,
+      "validCellCount": 11852,
+      "coverage": 0.723388671875,
+      "triangleCount": 1376682,
+      "topFacingTriangleCount": 576412,
+      "minHeight": -2.447839951315377,
+      "maxHeight": 40.21412130947816
+    },
+    "position": [
+      0.8273990340613864,
+      0.15,
+      2.625
+    ],
+    "phase": "playing",
+    "quality": "high"
+  },
+  "heap": {
+    "usedJSHeapSize": 350309415,
+    "totalJSHeapSize": 378830363,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "consoleErrors": [],
+  "networkFailures": [
+    {
+      "requestId": "7340.83",
+      "timestamp": 187077.425331,
+      "type": "Media",
+      "errorText": "net::ERR_ABORTED",
+      "canceled": true
+    }
+  ]
+}

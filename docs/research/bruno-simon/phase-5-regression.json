@@ -1,0 +1,84 @@
+{
+  "start": {
+    "x": 0.8273990340613864,
+    "y": 0.15,
+    "z": 2.625,
+    "ground": 0,
+    "vertical": 0,
+    "area": "home",
+    "phase": "playing",
+    "quality": "low"
+  },
+  "drive": {
+    "x": 0.8273990340613864,
+    "y": 0.2967428698390734,
+    "z": 0.1305187569587713,
+    "ground": 0.14674286983907336,
+    "vertical": 0,
+    "area": "controls",
+    "phase": "playing",
+    "quality": "low"
+  },
+  "jump": {
+    "x": 0.8273990340613864,
+    "y": 0.7090354922662354,
+    "z": -0.13841720078742026,
+    "ground": 0.1890354922662354,
+    "vertical": 0.37,
+    "area": "controls",
+    "phase": "playing",
+    "quality": "low"
+  },
+  "land": {
+    "x": 0.8273990340613864,
+    "y": 1.3220722518052326,
+    "z": -3.0900944607451586,
+    "ground": 1.1720722518052327,
+    "vertical": 0,
+    "area": "controls",
+    "phase": "playing",
+    "quality": "low"
+  },
+  "map": {
+    "pins": [
+      {
+        "label": "Travel to Mohamed's Home",
+        "transform": "translate(-7 7)"
+      },
+      {
+        "label": "Travel to Workshop",
+        "transform": "translate(17 6)"
+      },
+      {
+        "label": "Travel to Playground",
+        "transform": "translate(8 -6)"
+      },
+      {
+        "label": "Travel to Monument",
+        "transform": "translate(0 -28)"
+      },
+      {
+        "label": "Travel to Circuit",
+        "transform": "translate(-20 -25)"
+      },
+      {
+        "label": "Travel to Whisper Wall",
+        "transform": "translate(-15 26)"
+      },
+      {
+        "label": "Travel to Projects",
+        "transform": "translate(-69 -36)"
+      },
+      {
+        "label": "Travel to AI Lab",
+        "transform": "translate(76 51)"
+      }
+    ],
+    "open": true
+  },
+  "errors": [],
+  "models": [
+    "http://127.0.0.1:3000/models/optimized/quest-island.optimized.glb",
+    "http://127.0.0.1:3000/models/optimized/surpra%20mk.optimized.glb"
+  ]
+}

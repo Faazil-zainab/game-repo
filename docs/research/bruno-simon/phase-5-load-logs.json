@@ -1,0 +1,154 @@
+[
+  {
+    "type": "info",
+    "args": [
+      {
+        "type": "string",
+        "value": "[BrunoWorld] GLB island loaded"
+      },
+      {
+        "type": "object",
+        "className": "Object",
+        "description": "Object",
+        "objectId": "6394076900313867682.2.1",
+        "preview": {
+          "type": "object",
+          "description": "Object",
+          "overflow": true,
+          "properties": [
+            {
+              "name": "loadMs",
+              "type": "number",
+              "value": "17627"
+            },
+            {
+              "name": "bounds",
+              "type": "object",
+              "value": "Object"
+            },
+            {
+              "name": "dimensions",
+              "type": "object",
+              "value": "Array(3)",
+              "subtype": "array"
+            },
+            {
+              "name": "scale",
+              "type": "number",
+              "value": "117.99416273546029"
+            },
+            {
+              "name": "centerOffset",
+              "type": "object",
+              "value": "Array(3)",
+              "subtype": "array"
+            }
+          ]
+        }
+      }
+    ],
+    "executionContextId": 2,
+    "timestamp": 1793642600553.537,
+    "stackTrace": {
+      "callFrames": [
+        {
+          "functionName": "info",
+          "scriptId": "8",
+          "url": "http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js",
+          "lineNumber": 776,
+          "columnNumber": 27
+        },
+        {
+          "functionName": "applyGLBTransform",
+          "scriptId": "32",
+          "url": "http://127.0.0.1:3000/_next/static/chunks/src_components_sites_bruno-simon_engine_16o5e-n._.js",
+          "lineNumber": 2354,
+          "columnNumber": 20
+        },
+        {
+          "functionName": "",
+          "scriptId": "32",
+          "url": "http://127.0.0.1:3000/_next/static/chunks/src_components_sites_bruno-simon_engine_16o5e-n._.js",
+          "lineNumber": 2261,
+          "columnNumber": 17
+        }
+      ]
+    }
+  },
+  {
+    "type": "info",
+    "args": [
+      {
+        "type": "string",
+        "value": "[BrunoWorld] Supra model loaded"
+      },
+      {
+        "type": "object",
+        "className": "Object",
+        "description": "Object",
+        "objectId": "6394076900313867682.2.2",
+        "preview": {
+          "type": "object",
+          "description": "Object",
+          "overflow": true,
+          "properties": [
+            {
+              "name": "url",
+              "type": "string",
+              "value": "/models/optimized/surpra%20mk.optimized.glb"
+            },
+            {
+              "name": "loadAndParseMs",
+              "type": "number",
+              "value": "39776"
+            },
+            {
+              "name": "sourceDimensions",
+              "type": "object",
+              "value": "Array(3)",
+              "subtype": "array"
+            },
+            {
+              "name": "finalDimensions",
+              "type": "object",
+              "value": "Array(3)",
+              "subtype": "array"
+            },
+            {
+              "name": "scale",
+              "type": "number",
+              "value": "2.4153562125857406"
+            }
+          ]
+        }
+      }
+    ],
+    "executionContextId": 2,
+    "timestamp": 1793642622700.909,
+    "stackTrace": {
+      "callFrames": [
+        {
+          "functionName": "info",
+          "scriptId": "8",
+          "url": "http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js",
+          "lineNumber": 776,
+          "columnNumber": 27
+        },
+        {
+          "functionName": "installSupraModel",
+          "scriptId": "32",
+          "url": "http://127.0.0.1:3000/_next/static/chunks/src_components_sites_bruno-simon_engine_16o5e-n._.js",
+          "lineNumber": 2426,
+          "columnNumber": 20
+        },
+        {
+          "functionName": "",
+          "scriptId": "32",
+          "url": "http://127.0.0.1:3000/_next/static/chunks/src_components_sites_bruno-simon_engine_16o5e-n._.js",
+          "lineNumber": 2283,
+          "columnNumber": 17
+        }
+      ]
+    }
+  }
+]

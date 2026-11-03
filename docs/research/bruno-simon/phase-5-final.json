@@ -1,0 +1,111 @@
+{
+  "environment": {
+    "browser": "Chrome headless=new",
+    "flags": "--enable-gpu",
+    "hardwareAccelerationVerified": false,
+    "note": "No visible desktop/GPU page was available; fallback comparison."
+  },
+  "ready": true,
+  "loadingDurationMs": 31449,
+  "resources": [
+    {
+      "name": "http://127.0.0.1:3000/models/optimized/quest-island.optimized.glb",
+      "startTime": 2898.4000000059605,
+      "duration": 4716.200000017881,
+      "transferSize": 300,
+      "encodedBodySize": 29119132,
+      "decodedBodySize": 42001232
+    },
+    {
+      "name": "http://127.0.0.1:3000/models/optimized/surpra%20mk.optimized.glb",
+      "startTime": 2899.600000023842,
+      "duration": 26956.399999976158,
+      "transferSize": 56590670,
+      "encodedBodySize": 56590370,
+      "decodedBodySize": 80200092
+    }
+  ],
+  "before": {
+    "renderer": {
+      "calls": 239,
+      "triangles": 6732802,
+      "points": 0,
+      "lines": 0
+    },
+    "memory": {
+      "geometries": 291,
+      "textures": 37
+    },
+    "terrain": {
+      "resolution": 128,
+      "cellCount": 16384,
+      "validCellCount": 11852,
+      "coverage": 0.723388671875,
+      "triangleCount": 1376682,
+      "topFacingTriangleCount": 576412,
+      "minHeight": -2.447839951315377,
+      "maxHeight": 40.21412130947816
+    },
+    "position": [
+      0.8273990340613864,
+      0.15,
+      2.625
+    ],
+    "phase": "playing",
+    "quality": "high"
+  },
+  "frameStats": {
+    "samples": 397,
+    "avgFrame": 151.2171284634761,
+    "p95": 216.39999999999418,
+    "p99": 233.5,
+    "worst": 266.79999999999563,
+    "avgFps": 6.613007469200375,
+    "low1Fps": 4.282655246252677,
+    "duration": 60020.399999982124
+  },
+  "after": {
+    "renderer": {
+      "calls": 239,
+      "triangles": 6732802,
+      "points": 0,
+      "lines": 0
+    },
+    "memory": {
+      "geometries": 291,
+      "textures": 37
+    },
+    "terrain": {
+      "resolution": 128,
+      "cellCount": 16384,
+      "validCellCount": 11852,
+      "coverage": 0.723388671875,
+      "triangleCount": 1376682,
+      "topFacingTriangleCount": 576412,
+      "minHeight": -2.447839951315377,
+      "maxHeight": 40.21412130947816
+    },
+    "position": [
+      0.8273990340613864,
+      0.15,
+      2.625
+    ],
+    "phase": "playing",
+    "quality": "high"
+  },
+  "heap": {
+    "usedJSHeapSize": 320452935,
+    "totalJSHeapSize": 341503431,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "consoleErrors": [],
+  "networkFailures": [
+    {
+      "requestId": "18636.164",
+      "timestamp": 188380.784322,
+      "type": "Media",
+      "errorText": "net::ERR_ABORTED",
+      "canceled": true
+    }
+  ]
+}
